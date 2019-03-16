@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MyTrip</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- TODO: This is the header -->
+    <div class="hero">
+
+        <header class="header container">
+            <div class="logo">
+                <a href="#"><img src="img/logo.png" alt="Logo"></a>
+            </div>
+            <nav class="nav">
+                <!--FIXME: Ma gandesc sa il transform intrun dropdown in rezolutii mici-->
+                <a href="#">Book</a>
+                <a href="#">Help</a>
+                <a href="#">Sign Up</a>
+                <a href="#">Sign In</a>
+            </nav>
+
+        </header>
+
+        <div class="content-hero container">
+            <h1>Find accommodation for your next vacation</h1>
+            <form action="#">
+                <input type="text" name="search" class="search" placeholder="New York, London, Roma...">
+                <input type="submit" value="Search">
+            </form>
+        </div>
+
+    </div>
+    <!-- ---------------------------------------------------------------- -->
+
+    <!-- TODO: Main Content -->
+
+    <main class="content container">
+
+        <section class="module">
+
+            <h2>What to do?</h2>
+
+            <div class="cards-container">
+
+                <div class="card">
+                    <img src="img/hacer1.jpg">
+                    <div class="info">
+                        <p class="category concert"> Concert</p>
+                        <p class="title">Electronic music 2019</p>
+                        <p class="price">1200€ per person</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/hacer2.jpg">
+                    <div class="info">
+                        <p class="category concert"> Concert</p>
+                        <p class="title">Rock & Roll in Los Angeles</p>
+                        <p class="price">300€ per person</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/hacer3.jpg">
+                    <div class="info">
+                        <p class="category class"> Cooking class</p>
+                        <p class="title">Spanish cuisine for beginners</p>
+                        <p class="price">400€ per person</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/hacer4.jpg">
+                    <div class="info">
+                        <p class="category ride"> Tour</p>
+                        <p class="title">Bike ride in the light of the stars</p>
+                        <p class="price">50€ per person</p>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Close cards-container-->
+
+        </section>
+        <!-- ----------------------------------------------------------------------- -->
+
+
+        <!-- TODO: Section 2 About MyTravel Premium -->
+
+        <section class="module">
+
+            <h2>About MyTravel Premium</h2>
+            <div class="cards-container premium">
+
+                <div class="info">
+                    <h3>A new luxury section</h3>
+                    <a href="#" class="button">Explore accomodations</a>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- ------------------------------------------------------------------------- -->
+
+
+        <!-- TODO: Lodging section -->
+
+        <section class="module">
+            <h2>Lodging</h2>
+
+            <div class="cards-container">
+
+                <div class="card">
+                    <img src="img/hospedaje1.jpg">
+                    <div class="info">
+                        <p class="category lodging"> Entire place - 2 beds</p>
+                        <p class="title">Entire place with full services and two bedrooms</p>
+                        <p class="price">100€ per night</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/hospedaje2.jpg">
+                    <div class="info">
+                        <p class="category lodging"> 1 room - 2 beds</p>
+                        <p class="title">One room with two beds and shared kitchen</p>
+                        <p class="price">40€ per night</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/hospedaje3.jpg">
+                    <div class="info">
+                        <p class="category lodging"> Cottage - 4 beds</p>
+                        <p class="title">Cozy cottage with full services and 4 bedrooms</p>
+                        <p class="price">180€ per night</p>
+                    </div>
+                </div>
+
+        </section>
+        <!-- ------------------------------------------------------------------------------ -->
+
+        <!-- TODO: Popular destinations section -->
+
+        <section class="destinations module">
+            <h2>Popular destinations</h2>
+
+            <div class="cards-container">
+
+                <div class="card">
+                    <img src="img/populares1-b.jpg" onmouseover="this.src='img/populares1.jpg'" onmouseout="this.src='img/populares1-b.jpg'">
+                    <div class="info">
+                        <p class="title">Vienna</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/populares2-b.jpg" onmouseover="this.src='img/populares2.jpg'" onmouseout="this.src='img/populares2-b.jpg'">
+                    <div class="info">
+                        <p class="title">Paris</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/populares3-b.jpg" onmouseover="this.src='img/populares3.jpg'" onmouseout="this.src='img/populares3-b.jpg'">
+                    <div class="info">
+                        <p class="title">Athens</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/populares4-b.jpg" onmouseover="this.src='img/populares4.jpg'" onmouseout="this.src='img/populares4-b.jpg'">
+                    <div class="info">
+                        <p class="title">London</p>
+                    </div>
+                </div>
+
+        </section>
+        <!-- -------------------------------------------------------------------------------- -->
+
+        <!-- TODO: What to do in destination -->
+
+        <section class="module">
+
+            <section class="module">
+
+                <h2>What to do in New York?</h2>
+
+                <div class="cards-container">
+
+                    <div class="card">
+                        <img src="img/newyork1.jpg">
+                        <div class="info">
+                            <p class="category class"> Japanese class</p>
+                            <p class="title">Learn about japanese cuisine</p>
+                            <p class="price">150€ per person</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/newyork2.jpg">
+                        <div class="info">
+                            <p class="category concert"> Concert</p>
+                            <p class="title">EDM festival 2019</p>
+                            <p class="price">80€ per person</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/newyork3.jpg">
+                        <div class="info">
+                            <p class="category class"> Cooking class</p>
+                            <p class="title">How to do a dominican paella</p>
+                            <p class="price">30€ per person</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/newyork4.jpg">
+                        <div class="info">
+                            <p class="category ride"> Tour</p>
+                            <p class="title">A horseback ride through nature</p>
+                            <p class="price">60€ per person</p>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Close cards-container-->
+
+            </section>
+
+        </section>
+        <!-- ------------------------------------------------------------------------------------ -->
+    </main>
+    <!-- ---------------------------------------------------------------------------------------- -->
+
+    <!-- TODO: Footer -->
+
+    <footer id="footer" class="footer">
+
+        <div class="cards-container container">
+
+            <div class="nav-footer">
+                <h3>MyTrip.com</h3>
+
+                <nav class="menu">
+
+                    <a href="#">Press</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Policies</a>
+                    <a href="#">Help</a>
+
+                </nav>
+
+            </div>
+
+            <div class="nav-footer">
+                <h3>Discover</h3>
+
+                <nav class="menu">
+
+                    <a href="#">Gift Cards</a>
+                    <a href="#">Business Travel</a>
+                    <a href="#">Guidebooks</a>
+                    <a href="#">Events</a>
+
+                </nav>
+
+            </div>
+
+            <div class="nav-footer">
+                <h3>Hosting</h3>
+
+                <nav class="menu">
+
+                    <a href="#">Hospitality</a>
+                    <a href="#">Open homes</a>
+                    <a href="#">Why Host</a>
+                    <a href="#">Host an Experience</a>
+
+                </nav>
+
+            </div>
+
+            <div class="nav-footer">
+                <nav class="socials">
+                    <ul>
+                        <li>
+                            <a href="http://facebook.com" target="_blank">
+                                <span>Facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://twitter.com" target="_blank">
+                                <span>Twitter</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://instagram.com" target="_blank">
+                                <span>Instagram</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <nav class="menu">
+
+                    <a href="#">Terms</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Site Map</a>
+                    <a href="#">About Us</a>
+
+                </nav>
+
+            </div>
+
+        </div>
+        <!-- ---------------------------------------------------------------------------------------- -->
+
+    </footer>
+
+    <a href="#" class="float-btn active">Policies & More</a>
+    <!-- -------------------------------------------------------------------------------------------- -->
+
+
+
+
+
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
